@@ -5,30 +5,33 @@ export default function Hero() {
     <div className="relative overflow-hidden bg-gradient-to-br from-red-50 via-white to-blue-50">
       <div className="absolute inset-0 bg-[url('/gemini_generated_image_f7gajmf7gajmf7ga.png')] bg-center bg-no-repeat bg-contain opacity-5"></div>
 
-      <nav className="relative px-6 py-3 lg:px-8 bg-white border-b border-gray-200 shadow-sm">
-        <div className="flex items-center justify-between max-w-7xl mx-auto">
-          <div className="flex items-center">
-            <img src="/logo_turu.png" alt="TuRu" className="h-14 bg-white rounded-lg p-1" />
-          </div>
+      <nav className="relative pt-6 px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto bg-white bg-opacity-90 backdrop-blur-sm rounded-full px-8 py-4 shadow-lg border border-gray-100">
+          <div className="flex items-center justify-between">
+            <div className="flex items-center gap-3">
+              <img src="/logo_turu.png" alt="TuRu" className="h-10 w-10" />
+              <span className="text-xl font-bold text-gray-900">TuRu</span>
+            </div>
 
-          <div className="hidden md:flex items-center gap-8">
-            <a href="#features" className="text-gray-700 hover:text-red-600 font-medium transition-colors">
-              Özellikler
-            </a>
-            <a href="#security" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Güvenlik
-            </a>
-            <a href="#faq" className="text-gray-700 hover:text-red-600 font-medium transition-colors">
-              SSS
-            </a>
-            <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
-              Bize Ulaşın
-            </a>
-          </div>
+            <div className="hidden md:flex items-center gap-10">
+              <a href="#features" className="text-gray-700 hover:text-red-600 font-medium transition-colors">
+                Özellikler
+              </a>
+              <a href="#security" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+                Güvenlik
+              </a>
+              <a href="#faq" className="text-gray-700 hover:text-red-600 font-medium transition-colors">
+                SSS
+              </a>
+              <a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium transition-colors">
+                Bize Ulaşın
+              </a>
+            </div>
 
-          <button className="px-6 py-2.5 bg-gradient-to-r from-red-600 to-blue-600 text-white rounded-lg font-medium hover:shadow-lg transition-all duration-200 hover:scale-105">
-            Başla
-          </button>
+            <button className="px-6 py-2 bg-gray-900 text-white rounded-lg font-medium hover:bg-gray-800 transition-colors">
+              Başla
+            </button>
+          </div>
         </div>
       </nav>
 
