@@ -10,7 +10,6 @@ export default function Hero() {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
               <img src="/logo_turu.png" alt="TuRu" className="h-10 w-10" />
-              <span className="text-xl font-bold text-gray-900">TuRu</span>
             </div>
 
             <div className="hidden md:flex items-center gap-10">
@@ -28,7 +27,7 @@ export default function Hero() {
               </a>
             </div>
 
-            <button className="px-6 py-2 bg-gray-900 text-white rounded-lg font-medium hover:bg-gray-800 transition-colors">
+            <button className="px-6 py-2 bg-gradient-to-r from-red-600 to-blue-600 text-white rounded-lg font-medium hover:shadow-lg transition-all duration-200 hover:scale-105">
               Başla
             </button>
           </div>
