@@ -7,7 +7,7 @@ export default function Hero() {
 
       <nav className="relative px-6 py-4 lg:px-8">
         <div className="flex items-center justify-between max-w-7xl mx-auto">
-          <img src="/logo_turu.png" alt="TuRu" className="h-12" />
+          <img src="/logo_turu.png" alt="TuRu" className="h-20" />
           <button className="px-6 py-2.5 bg-gradient-to-r from-red-600 to-blue-600 text-white rounded-lg font-medium hover:shadow-lg transition-all duration-200 hover:scale-105">
             Başla
           </button>
