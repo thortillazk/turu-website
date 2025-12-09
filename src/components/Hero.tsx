@@ -27,9 +27,9 @@ export default function Hero() {
               </a>
             </div>
 
-            <button className="px-6 py-2 bg-gradient-to-r from-red-600 to-blue-600 text-white rounded-lg font-medium hover:shadow-lg transition-all duration-200 hover:scale-105">
+            <a href="https://t.me/TuRuPayBot" target="_blank" rel="noopener noreferrer" className="px-6 py-2 bg-gradient-to-r from-red-600 to-blue-600 text-white rounded-lg font-medium hover:shadow-lg transition-all duration-200 hover:scale-105 inline-block">
               Başla
-            </button>
+            </a>
           </div>
         </div>
       </nav>
@@ -54,10 +54,10 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="group px-8 py-4 bg-gradient-to-r from-red-600 to-blue-600 text-white rounded-xl font-semibold text-lg hover:shadow-2xl transition-all duration-200 hover:scale-105 flex items-center gap-2">
+            <a href="https://t.me/TuRuPayBot" target="_blank" rel="noopener noreferrer" className="group px-8 py-4 bg-gradient-to-r from-red-600 to-blue-600 text-white rounded-xl font-semibold text-lg hover:shadow-2xl transition-all duration-200 hover:scale-105 flex items-center gap-2 no-underline">
               Telegram'da Aç
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </button>
+            </a>
             <button className="px-8 py-4 bg-white text-gray-700 rounded-xl font-semibold text-lg border-2 border-gray-200 hover:border-gray-300 transition-all duration-200">
               Daha Fazla Bilgi
             </button>
