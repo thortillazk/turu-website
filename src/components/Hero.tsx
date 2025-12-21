@@ -2,7 +2,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <div className="relative overflow-hidden bg-gradient-to-br from-red-50 via-white to-blue-50">
+    <div className="relative overflow-hidden bg-gradient-to-br from-gray-50 via-white to-gray-100">
       <div className="absolute inset-0 bg-[url('/gemini_generated_image_f7gajmf7gajmf7ga.png')] bg-center bg-no-repeat bg-contain opacity-5"></div>
 
       <nav className="relative pt-6 px-6 lg:px-8">
@@ -27,7 +27,7 @@ export default function Hero() {
               </a>
             </div>
 
-            <a href="https://t.me/TuRuPayBot" target="_blank" rel="noopener noreferrer" className="px-6 py-2 bg-gradient-to-r from-red-600 to-blue-600 text-white rounded-lg font-medium hover:shadow-lg transition-all duration-200 hover:scale-105 inline-block">
+            <a href="https://t.me/TuRuPayBot/TuRuPay" target="_blank" rel="noopener noreferrer" className="px-6 py-2 bg-gray-300 text-gray-500 rounded-lg font-medium cursor-not-allowed inline-block opacity-60">
               Başla
             </a>
           </div>
@@ -36,29 +36,27 @@ export default function Hero() {
 
       <div className="relative px-6 py-24 lg:py-32 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-8">
-            <span className="w-2 h-2 bg-blue-600 rounded-full animate-pulse"></span>
-            Şu an sadece Rusya'da hizmet vermektedir
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gray-200 text-gray-600 rounded-full text-sm font-medium mb-8">
+            <span className="w-2 h-2 bg-gray-500 rounded-full animate-pulse"></span>
+            TuruPay çok yakında sizlerle
           </div>
 
-          <h1 className="text-5xl lg:text-7xl font-bold tracking-tight mb-6">
-            <span className="bg-gradient-to-r from-red-600 to-blue-600 bg-clip-text text-transparent">
-              Kripto Ödemeler
-            </span>
+          <h1 className="text-5xl lg:text-7xl font-bold tracking-tight mb-6 text-gray-400">
+            Kripto Ödemeler
             <br />
             Telegram'da
           </h1>
 
-          <p className="text-xl lg:text-2xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
-            Telegram üzerinden tek tıkla kripto cüzdanınızı oluşturun ve Rusya'da her yerde anında ödeme yapın
+          <p className="text-xl lg:text-2xl text-gray-500 mb-10 max-w-2xl mx-auto leading-relaxed">
+            Uygulama göz atmak ve bekleme listesine katılmak için tıklayın
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <a href="https://t.me/TuRuPayBot" target="_blank" rel="noopener noreferrer" className="group px-8 py-4 bg-gradient-to-r from-red-600 to-blue-600 text-white rounded-xl font-semibold text-lg hover:shadow-2xl transition-all duration-200 hover:scale-105 flex items-center gap-2 no-underline">
+            <a href="https://t.me/TuRuPayBot/TuRuPay" target="_blank" rel="noopener noreferrer" className="group px-8 py-4 bg-gray-300 text-gray-500 rounded-xl font-semibold text-lg flex items-center gap-2 no-underline cursor-not-allowed opacity-60">
               Telegram'da Aç
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+              <ArrowRight className="w-5 h-5" />
             </a>
-            <button className="px-8 py-4 bg-white text-gray-700 rounded-xl font-semibold text-lg border-2 border-gray-200 hover:border-gray-300 transition-all duration-200">
+            <button disabled className="px-8 py-4 bg-gray-200 text-gray-400 rounded-xl font-semibold text-lg border-2 border-gray-300 cursor-not-allowed opacity-60">
               Daha Fazla Bilgi
             </button>
           </div>
